@@ -9,6 +9,16 @@
 // 7. I want the user to be able to clear the events from local storage
 
 
-var currentDayElement = $('#currentDay');
+//var currentDayElement = $('#currentDay');
 var containerElement = $('.container');
 var currentHour = moment().hour();
+var timeDisplayEl = $('#currentDay');
+
+function displayTime(){
+  var reformatDate = dayjs().format('dddd, MMMM D, YYYY');
+  timeDisplayEl.text(reformatDate);
+  }
+  setInterval(displayTime, 
+    
+    1000);
+
