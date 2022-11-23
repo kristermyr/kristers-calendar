@@ -15,7 +15,7 @@ var currentHour = moment().hour();
 var timeDisplayEl = $('#currentDay');
 
 function displayTime(){
-  var reformatDate = dayjs().format('dddd, MMMM D, YYYY');
+  var reformatDate = moment().format('dddd, MMMM D, YYYY');
   timeDisplayEl.text(reformatDate);
   }
   setInterval(displayTime, 
@@ -33,3 +33,13 @@ $(document).ready(function() {
 
 })
 })
+
+
+$('#hour9 .description').val(localStorage.getItem('hour9'));
+
+function timeColorOverlay(){
+
+
+}
+
+
