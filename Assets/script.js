@@ -9,11 +9,11 @@
 
 
 var containerElement = $('.container');
-var currentHour = moment().hour();
+var currentHour = dayjs().hour();
 var timeDisplayEl = $('#currentDay');
 
 function displayTime(){                                             //Calendar Time function, displays todays date on the top of the page
-  var reformatDate = moment().format('dddd, MMMM D, YYYY');
+  var reformatDate = dayjs().format('dddd, MMMM D, YYYY');
   timeDisplayEl.text(reformatDate);
   }
   setInterval(displayTime, 
