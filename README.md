@@ -6,8 +6,8 @@ The Work Day Scheduler showcases my skills with using Bootstrap and Jquery. I ha
 I learned how you can set up a timer in different formats, save information and retrieve information from local storage and change the view of a page based on the time of day.
 
 ## Installation
-Website URL: https://kristermyr.github.io/krister-password-generator-refactor/
-Open Github: https://github.com/kristermyr/krister-password-generator-refactor.git
+Website URL: https://kristermyr.github.io/kristers-calendar/ ```
+Open Github: https://github.com/kristermyr/kristers-calendar.git ```
 
 ## Usage
 
