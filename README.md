@@ -7,9 +7,9 @@ I learned how you can set up a timer in different formats, save information and 
 
 ## Installation
 Website URL: https://kristermyr.github.io/kristers-calendar/ 
-```
+
 Open Github: https://github.com/kristermyr/kristers-calendar.git
-```
+
 
 ## Usage
 
